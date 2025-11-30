@@ -1,0 +1,28 @@
+{
+  "name": "test-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-smtp.js",
+    "test:react": "node test-smtp-react.js",
+    "preview": "email dev --dir ./emails"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@react-email/components": "^0.5.7",
+    "@react-email/render": "^1.4.0",
+    "dotenv": "^17.2.3",
+    "imap": "^0.8.17",
+    "nodemailer": "^7.0.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@react-email/preview-server": "^4.3.2",
+    "react-email": "^4.3.2"
+  }
+}
